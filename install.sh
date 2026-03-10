@@ -2,7 +2,7 @@
 
 # ─────────────────────────────────────────────
 #  hstx installer
-#  usage: curl -fsSL https://raw.githubusercontent.com/owenvanvooren/hstx/main/install.sh | bash
+#  usage: curl -fsSL https://raw.githubusercontent.com/owenvanvooren/hstx/master/install.sh | bash
 # ─────────────────────────────────────────────
 
 set -e
@@ -52,7 +52,7 @@ echo "  sqlite3 available :)"
 
 # install / 5. download hstx.sh
 mkdir -p "$HSTX_DIR"
-curl -fsSL "https://raw.githubusercontent.com/owenvanvooren/hstx/main/hstx.sh" -o "$HSTX_SCRIPT"
+curl -fsSL "https://raw.githubusercontent.com/owenvanvooren/hstx/master/hstx.sh" -o "$HSTX_SCRIPT"
 chmod +x "$HSTX_SCRIPT"
 echo "  hstx installed to $HSTX_SCRIPT :)"
 
