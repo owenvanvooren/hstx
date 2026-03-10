@@ -8,7 +8,7 @@ zsh's built-in `ctrl+r` only searches the current session and has no way to labe
 ## install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/owenvanvooren/hstx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/owenvanvooren/hstx/master/install.sh | bash
 ```
 
 then reload your shell:
